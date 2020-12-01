@@ -24,14 +24,29 @@
                 <li class="nav-item">
                   <a class="nav-link" href="#">Uncover Lagos</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Things to do</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Things to do</a>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Attractions</a>
+                    <a href="#" class="dropdown-item">Shopping</a>
+                    <a href="#" class="dropdown-item">Parks</a>
+                  </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">What's happening?</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">What's happening?</a>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Events</a>
+                    <a href="#" class="dropdown-item">Sports</a>
+                    <a href="#" class="dropdown-item">Conferences</a>
+                  </div>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Plan your trip</a>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">Plan your trip</a>
+                  <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Where to stay</a>
+                    <a href="#" class="dropdown-item">Restaurants</a>
+                    <a href="#" class="dropdown-item">Map</a>
+                  </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Blog</a>
@@ -42,30 +57,38 @@
     </section>
 
     <section id="landing_page"
-             style="background-color: lightblue; background-image: url(./img/hero.png); background-repeat: no-repeat; background-position: center center; background-size: cover;">
-    <div class="container">
-        <div class="row">
-          <div class="col col-sm-6">
-            <h1 style="font-weight: 900; font-size: 60px; line-height: 90px; color: white;">VISITLAGOS</h1>
-            <p style="color: white; line-height: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
-              <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis.</p>
-            <button style="border:none; border-radius: 5px; width: 130px; height: 40px; background-color: #219537; color: white; text-decoration: none; ">
-              <span style="line-height: 21px; font-weight: 800;">REGISTER</span></button>
+             style="background-color: lightblue; background-image: url(./img/hero.png); background-repeat: no-repeat; background-position: center center; background-size: cover; height: 100vh;">
+      <div class="container">
+          <div class="row">
+            <div class="col col-sm-6" style="margin-top: 200px;">
+              <h1 style="font-weight: 900; font-size: 60px; line-height: 90px; color: white;">VISITLAGOS</h1>
+              <p style="color: white; line-height: 24px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+                <br>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis.</p>
+              <button style="border:none; border-radius: 5px; width: 130px; height: 40px; background-color: #219537; color: white; text-decoration: none; ">
+                <span style="line-height: 21px; font-weight: 800;">EXPLORE</span></button>
+            </div>
           </div>
         </div>
-      </div>
 
+        <div class="container" style="height: 137px; background-color: white; ">
+          <form class="m-auto text-center">
+            <input type="text" id="username" placeholder="Enter username">
+            <input type="text" id="password" placeholder="Password">
 
+            <button type="submit" style="height: 38.96px; width: 128px; border-radius: 5px; background-color:#219537; border: none; box-sizing: border-box;"><p style="font-weight: 800; line-height: 21px;">SEARCH</p></button>
+        </form>
+
+        </div>
     </section>
 
-    <section id="banner-section" >
+    <section id="banner-section" style="height: 70vh;">
       <div class="container">
         <div class="row">
           <div class="col col-lg-6" style="margin-top: 80px; color: #474948;">
-            <h1>Know More About Lagos</h1>
+            <h1 style="font-size: 28px; line-height: 42px; font-weight: 600;">Know More About Lagos</h1>
             <p style="line-height: 21px">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt voluptatum voluptatibus nostrum et blanditiis cumque impedit. Sapiente quas illum ipsam ex perferendis sunt, saepe necessitatibus, ea, eaque natus quasi minima vitae dignissimos cupiditate repellendus inventore. Quia molestias eaque iste. Natus illum reprehenderit cum dolorem magnam, harum nam repellat qui maiores!</p>
 
-            <button style="border: none; border-radius: 5px; background: #219537; height: 42px; width: 163px;">EXPLORE MORE</button>
+            <button style="border: none; border-radius: 5px; background: #219537; height: 42px; width: 163px; line-height: 21px; font-weight: 800; color: white;">EXPLORE MORE</button>
           </div>
 
           <div class="col col-lg-6" style="margin-top: 80px;">
@@ -78,11 +101,13 @@
     <section id="register_btn" style="background: url('./img/Group\ 259.png')">
       <div class="container">
         <div class="row">
-          <div class="col col-sm-12" style="margin-top: 80px; line-height: 27px;">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id reiciendis ab <br> quam impedit deserunt provident, at, veritatis nostrum corrupti, iste ipsa et molestias corporis?</p>
+          <div class="col col-sm-12" style="margin-top: 80px; line-height: 27px; color: white; justify-content: center;">
+            <p class="text-sm-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim nisi <br> quam impedit deserunt provident, at, veritatis nostrum</p>
           </div>
 
-        <button style="border: 2px solid #ffffff; border-radius: 5px; height: 42px; width: 163px; box-sizing: border-box;" class="mb-5 btn btn-outline"><a href="#" style="color: white; font-weight: 800; line-height: 24px;">REGISTER</a></button>
+        <div class="button m-auto text-center">
+          <button style="border: 2px solid #ffffff; border-radius: 5px; height: 42px; width: 163px; box-sizing: border-box;" class="mb-5 btn btn-outline"><a href="#" style="color: white; font-weight: 800; line-height: 24px;">REGISTER</a></button>
+      </div>
       </div>
     </section>
 
@@ -91,7 +116,7 @@
         <div class="row">
           <div class="col col-sm-12">
             <p style="line-height: 42px; font-size: 28px; font-weight:600; color:#474948;
-            ;" class="text-center class="mt-5">Some Tourist Attractions in Lagos State</p>
+            ;" class="text-center my-5">Some Tourist Attractions in Lagos State</p>
           </div>
         </div>
         <div class="row">
@@ -142,14 +167,18 @@
           </div>
         </div>
       </div>
+
+      <div class="view_more text-center my-3">
+        <button style="height: 30.74px; width: 101px; box-sizing: border-box; background-color:#219537; border-radius: 5px; border: none;" class="mb-5"><a href="#" style="color: white; line-height: 18px; font-size: 12px;">VIEW MORE</a></button>
+      </div>
     </section>
 
 
 
-    <section>
+    <section style="background-color: #f8f8f8;" class="pb-5">
       <div class="container">
         <div class="row">
-          <div class="col col-sm-12">
+          <div class="col col-sm-12 my-5">
             <p style="line-height: 42px; font-size: 28px; color:#474948; font-weight: 600;" class="text-center class="mt-5">Hotels in Lagos State</p>
           </div>
         </div>
@@ -200,15 +229,19 @@
             <p style="font-size: 10px; line-height: 15px; color: #B9BDBA; height: 15px;" class="d-inline">465</p>
           </div>
         </div>
+        
+        <div class="view_more text-center my-3">
+          <button style="height: 30.74px; width: 101px; box-sizing: border-box; background-color:#219537; border-radius: 5px; border: none;" class="mb-5"><a href="#" style="color: white; line-height: 18px; font-size: 12px;">VIEW MORE</a></button>
+        </div>
       </div>
     </section>
 
 
 
     <section>
-      <div class="container">
+      <div class="container mb-5">
         <div class="row">
-          <div class="col col-sm-12">
+          <div class="col col-sm-12 my-5">
             <p style="line-height: 42px; font-size: 28px; color:#474948; font-weight: 600;
             ;" class="text-center class="mt-5">Blog Posts</p>
           </div>
@@ -233,10 +266,83 @@
             <p style="font-size: 10px; line-height: 15px; color: #B9BDBA; height: 15px;" class="d-inline">DEC 25, 2019</p>
           </div>
         </div>
+        <div class="row">
+          <div class="col col-sm-12">
+            <div class="scroll_meter mt-3 text-center">
+              <img src="/img/scroll meter.png" alt="">
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
+    <section style="background-color: #fbfcfb;">
+      <div class="container" style="height:548px">
+        <div class="row m-auto text-center pt-5">
+          <div class="col col-sm-3">
+            <ul class="list-unstyled">
+              <li style="font-size: 16px; font-weight: 600;">Things To Do In Lagos</li>
+              <li>Attractions</li>
+              <li>Shopping</li>
+              <li>Parks</li>
+            </ul>
+          </div>
+          <div class="col col-sm-3">
+            <ul class="list-unstyled">
+              <li style="font-size: 16px; font-weight: 600;">What's Happening ?</li>
+              <li>Events</li>
+              <li>Sports</li>
+              <li>Conference</li>
+              <li>Tourist Attractions</li>
+            </ul>
+          </div>
+          <div class="col col-sm-3">
+            <ul class="list-unstyled">
+              <li style="font-size: 16px; font-weight: 600;">Plan Your Trip ?</li>
+              <li>Where to stay</li>
+              <li>Restaurants</li>
+              <li>Map</li>
+            </ul>
+          </div>
+          <div class="col col-sm-3">
+            <ul class="list-unstyled">
+              <li style="font-size: 16px; font-weight: 600;">Quick Links</li>
+              <li>Blog</li>
+              <li>Privacy Policy</li>
+              <li>Terms of condition</li>
+            </ul>
+          </div>
+        </div>
 
+        <div class="container">
+          <div class="hr my-5"><hr></div>
+        </div>
+
+        <div class="row">
+          <div class="col-col-sm-6">
+            <div class="list-inline">
+              <img class="list-inline-item" src="./img/brandico_facebook.png" alt="Facebook Icon">
+              <img class="list-inline-item" src="./img/instagram icon.png" alt="instagram Icon">
+              <img class="list-inline-item" src="./img/twitter.png" alt="Twitter Icon">
+            </div>
+            <div class="copyright mb-5">
+              <p style="font-size: 12px; line-height: 18px; font-weight: 400;">&copy; 2020 Lagos State Tourism. All Rights Reserved</p>
+            </div>
+          </div>
+          <div class="col col-sm-6  text-right">
+            <div class="list-inline">
+              <img class="list-inline-item" src="./img/phone.png" alt=""> 
+            <p style="font-size: 12px; line-height: 18px; font-weight: 400;" class="list-inline-item">+234 9023 657 546, +234 8034 678 457</p>
+            </div>
+            <div class="list-inline">
+              <img class="list-inline-item" src="./img/envelope.png" alt="">
+              <p style="font-size: 12px; line-height: 18px; font-weight: 400;" class="list-inline-item">info@lagtourism.com, support@lagtourism.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
